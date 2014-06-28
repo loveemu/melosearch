@@ -1,7 +1,7 @@
 Melo Melo Search
 ================
 
-Small utility to search a byte sequence by melody.
+Small utility to search a byte sequence by specified melody.
 
 Note: The search engine uses only the key of notes. Others, such as lengths, will be ignored.
 
