@@ -11,7 +11,7 @@
 #include <time.h>
 
 #define APP_NAME	"Melo Melo Search"
-#define APP_VER		"[2013-12-05]"
+#define APP_VER		"[2015-11-16]"
 #define APP_AUTHOR	"[loveemu](http://loveemu.googlecode.com/)"
 
 #define COUNT(a)	(sizeof(a) / sizeof(a[0]))
@@ -144,7 +144,7 @@ bool parseMML(SeqNote *notes, int &noteCount, int maxNotes, const char *mml)
 				}
 				else if (mml[i] == '-')
 				{
-					key++;
+					key--;
 				}
 				i++;
 			}
