@@ -8,7 +8,9 @@ Melo Melo Search
 使い方
 ------
 
-Syntax: `MeloSearch (options) [input file] [MML]`
+Syntax: `MeloSearch (options) [input file] "[MML]"`
+
+注: `<` はオクターブを上げて、`>` はオクターブを下げます。
 
 ### オプション
 

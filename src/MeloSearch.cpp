@@ -232,7 +232,9 @@ void printUsage(void)
 	printf("\n");
 	printf("### Syntax ###\n");
 	printf("\n");
-	printf("%s (options) [input file] [MML]\n", glCommandPath);
+	printf("%s (options) [input file] \"[MML]\"\n", glCommandPath);
+	printf("\n");
+	printf("Note: `<` increases octave, and `>` decreases octave.\n");
 	printf("\n");
 	printf("### Options ###\n");
 	printf("\n");

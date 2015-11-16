@@ -8,7 +8,9 @@ Note: The search engine uses only the key of notes. Others, such as lengths, wil
 Usage
 -----
 
-Syntax: `MeloSearch (options) [input file] [MML]`
+Syntax: `MeloSearch (options) [input file] "[MML]"`
+
+Note: `<` increases octave, and `>` decreases octave.
 
 ### Options
 
